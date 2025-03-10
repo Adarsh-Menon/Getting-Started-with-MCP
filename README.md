@@ -4,6 +4,10 @@ pip install uv--> uv is An extremely fast Python package and project manager, wr
 
 create your virtual env using uv venv
 
+uv init -> for having the necessity project structure
+
+uv add "mcp[cli]"
+
 install the libraries
 
 Let's create a simple MCP server that exposes a calculator tool and some data:
