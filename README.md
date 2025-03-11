@@ -116,7 +116,7 @@ If you'd like to contribute to this project, follow these steps:
    ```
 6. **Create a Pull Request**: Open a pull request on the original repository.
 
-We appreciate all contributions! Feel free to suggest new features, improvements, or bug fixes.
+### We appreciate all contributions! Feel free to suggest new features, improvements, or bug fixes.
 
 
 
