@@ -1,19 +1,65 @@
-# Getting-Started-with-MCP
+# Getting Started with MCP
 
-pip install uv--> uv is An extremely fast Python package and project manager, written in Rust and is backed by astral.
+## Installation
 
-create your virtual env using uv venv
+To get started with MCP, first, install `uv`, an extremely fast Python package and project manager written in Rust:
 
-uv init -> for having the necessity project structure
+```sh
+pip install uv
+```
 
+## Setting Up Your Environment
+
+Create a virtual environment using `uv`:
+
+```sh
+uv venv
+```
+
+Initialize the project structure:
+
+```sh
+uv init
+```
+
+Add MCP CLI to your project:
+
+```sh
 uv add "mcp[cli]"
+```
 
-install the libraries
+## Installing Required Libraries
 
-Let's create a simple MCP server that exposes a calculator tool and some data:
+Install all necessary libraries by running:
 
-mcp install server.py -> You can install this server in Claude Desktop and interact with it right away by running:
+```sh
+uv install
+```
 
-mcp dev server.py -> Alternatively, you can test it with the MCP Inspector:
+## Creating an MCP Server
+
+Let's create a simple MCP server that exposes a calculator tool and some data.
+
+Create a file `server.py` and install the MCP server:
+
+```sh
+mcp install server.py
+```
+
+### Running the MCP Server
+
+You can install this server in Claude Desktop and interact with it immediately by running:
+
+```sh
+mcp dev server.py
+```
+
+Alternatively, you can test it with the MCP Inspector for debugging and validation.
+
+---
+
+This guide covers the basic setup and installation of an MCP server. Happy coding!
+
+
 
 
