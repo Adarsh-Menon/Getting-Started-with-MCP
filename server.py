@@ -9,5 +9,5 @@ mcp = FastMCP("My APP")
 
 #Creation of a new tool
 @mcp.tool()
-def add(name:str) -> str:
+def name(name:str) -> str:
     return f"{name} is added"

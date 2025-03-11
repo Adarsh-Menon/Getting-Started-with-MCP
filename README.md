@@ -93,6 +93,11 @@ mcp dev server.py
 
 Alternatively, you can test it with the MCP Inspector for debugging and validation.
 
+## Output 
+
+Using the Inspector Mode to test the code.
+
+
 ## Contributing
 
 If you'd like to contribute to this project, follow these steps:
@@ -115,6 +120,7 @@ If you'd like to contribute to this project, follow these steps:
    git push origin feature-branch-name
    ```
 6. **Create a Pull Request**: Open a pull request on the original repository.
+
 
 ### We appreciate all contributions! Feel free to suggest new features, improvements, or bug fixes.
 
