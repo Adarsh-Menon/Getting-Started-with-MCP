@@ -1,5 +1,15 @@
 # Getting Started with MCP
 
+What is MCP?
+
+The Model Context Protocol (MCP) is a standardized framework designed to securely expose data and functionality to LLM applications. It functions similarly to a web API but is specifically tailored for interactions with large language models (LLMs). MCP servers provide three key capabilities:
+
+-Resources: These act like GET endpoints, allowing the LLM to retrieve and load relevant data into its context.
+
+-Tools: Comparable to POST endpoints, tools enable the execution of code or actions that produce side effects.
+
+-Prompts: Reusable templates that define structured interaction patterns for the LLM.
+
 ## Installation
 
 To get started with MCP, first, install `uv`, an extremely fast Python package and project manager written in Rust:
