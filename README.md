@@ -46,7 +46,7 @@ uv install
 
 ## Creating an MCP Server
 
-Let's create a simple MCP server that exposes a calculator tool and some data.
+Let's create a simple MCP server that exposes a Hello World tool .
 
 Create a file `server.py` and install the MCP server:
 
@@ -66,7 +66,7 @@ Alternatively, you can test it with the MCP Inspector for debugging and validati
 
 ---
 
-This guide covers the basic setup and installation of an MCP server. Happy coding!
+
 
 
 
